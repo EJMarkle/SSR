@@ -68,7 +68,7 @@ function enhanceParallaxEffect() {
 
   // Adjust the background position based on scroll percentage
   // This creates a subtle parallax effect where the background moves slower than the content
-  document.body.style.backgroundPosition = `center ${20 - scrollPercentage * 0.2}%`
+  document.body.style.backgroundPosition = `center ${20 + scrollPercentage * 0.2}%`
 }
 
 // Add event listener for scroll
