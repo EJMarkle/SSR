@@ -42,7 +42,7 @@ body {
 .logo span {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #6b6fab;
+  color: #314314;
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .nav-desktop .nav-link:hover {
-  color: #6b6fab;
+  color: #314314;
 }
 
 .nav-cta {
@@ -108,12 +108,12 @@ body {
 }
 
 .btn-primary {
-  background: #6b6fab;
+  background: #314314;
   color: white;
 }
 
 .btn-primary:hover {
-  background: #6b6fab;
+  background: #314314;
 }
 
 .btn-outline {
@@ -194,7 +194,7 @@ body {
 
 /* Contact Bar */
 .contact-bar {
-  background:#6b6fab;
+  background:#314314;
   color: white;
   padding: 1rem 0;
   backdrop-filter: blur(5px);
@@ -286,7 +286,7 @@ body {
 }
 
 .service-link {
-  color: #6b6fab;
+  color: #314314;
   text-decoration: none;
   font-weight: 500;
   display: inline-flex;
@@ -339,13 +339,13 @@ body {
 }
 
 .feature-item i {
-  color: #6b6fab;
+  color: #314314;
   margin-top: 0.125rem;
 }
 
 /* CTA Section */
 .cta {
-  background: #6b6fab;
+  background: #314314;
   color: white;
   padding: 4rem 0;
   text-align: center;
@@ -453,7 +453,7 @@ body {
 }
 
 .contact-detail i {
-  color: #6b6fab;
+  color: #314314;
   margin-top: 0.125rem;
   width: 20px;
 }
@@ -523,7 +523,7 @@ body {
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #6b6fab;
+  border-color: #314314;
   box-shadow: 0 0 0 3px rgba(153, 27, 27, 0.1);
 }
 
@@ -583,7 +583,7 @@ body {
 }
 
 .social-links a:hover {
-  color: #6b6fab;
+  color: #314314;
 }
 
 .footer-contact {
@@ -599,7 +599,7 @@ body {
 }
 
 .footer-contact-item i {
-  color: #6b6fab;
+  color: #314314;
   margin-top: 0.125rem;
   width: 16px;
 }
