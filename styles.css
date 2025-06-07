@@ -339,7 +339,7 @@ body {
 }
 
 .feature-item i {
-  color: #314314;
+  color: #a04935;
   margin-top: 0.125rem;
 }
 
@@ -453,7 +453,7 @@ body {
 }
 
 .contact-detail i {
-  color: #314314;
+  color: #a04935;
   margin-top: 0.125rem;
   width: 20px;
 }
@@ -523,7 +523,7 @@ body {
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #314314;
+  border-color: #a04935;
   box-shadow: 0 0 0 3px rgba(153, 27, 27, 0.1);
 }
 
@@ -599,7 +599,7 @@ body {
 }
 
 .footer-contact-item i {
-  color: #314314;
+  color: #a04935;
   margin-top: 0.125rem;
   width: 16px;
 }
