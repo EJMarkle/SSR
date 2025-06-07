@@ -42,7 +42,7 @@ body {
 .logo span {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #314314;
+  color: #a04935;
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .nav-desktop .nav-link:hover {
-  color: #314314;
+  color: #a04935;
 }
 
 .nav-cta {
@@ -108,12 +108,12 @@ body {
 }
 
 .btn-primary {
-  background: #314314;
+  background: #a04935;
   color: white;
 }
 
 .btn-primary:hover {
-  background: #314314;
+  background: #a04935;
 }
 
 .btn-outline {
@@ -583,7 +583,7 @@ body {
 }
 
 .social-links a:hover {
-  color: #314314;
+  color: #a04935;
 }
 
 .footer-contact {
