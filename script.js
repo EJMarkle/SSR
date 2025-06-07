@@ -57,8 +57,28 @@ document.addEventListener("click", (event) => {
   }
 })
 
+// Add this function to enhance the parallax effect
+function enhanceParallaxEffect() {
+  const scrollPosition = window.scrollY
+  const windowHeight = window.innerHeight
+  const documentHeight = document.body.scrollHeight
+
+  // Calculate how far down the page we've scrolled as a percentage
+  const scrollPercentage = (scrollPosition / (documentHeight - windowHeight)) * 100
+
+  // Adjust the background position based on scroll percentage
+  // This creates a subtle parallax effect where the background moves slower than the content
+  document.body.style.backgroundPosition = `center ${20 - scrollPercentage * 0.2}%`
+}
+
+// Add event listener for scroll
+window.addEventListener("scroll", enhanceParallaxEffect)
+
 // Add loading animation for images
 document.addEventListener("DOMContentLoaded", () => {
+  enhanceParallaxEffect()
+
+  // Rest of your existing DOMContentLoaded code...
   const images = document.querySelectorAll("img")
   images.forEach((img) => {
     img.addEventListener("load", function () {
