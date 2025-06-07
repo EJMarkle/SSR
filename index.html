@@ -9,14 +9,14 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header" id="home">
         <div class="container">
             <div class="nav-wrapper">
                 <a href="#" class="logo">
                     <span>Sacred Sky Roofing LLC</span>
                 </a>
                 <nav class="nav-desktop">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link">Home</a>
                     <a href="#services" class="nav-link">Services</a>
                     <a href="#about" class="nav-link">About</a>
                     <a href="#testimonials" class="nav-link">Testimonials</a>
@@ -45,8 +45,8 @@
             <div class="hero-overlay"></div>
             <div class="container hero-content">
                 <div class="hero-text">
-                    <h1>We are dedicated to helping people restore their homes. We make your insurance work for you!</h1>
-                    <p>Professional and experienced roofing services. We provide top-quality materials and workmanship for residential and commercial properties.</p>
+                    <h1>Professional and experienced roofing services.</h1>
+                    <p>We provide top-quality materials and workmanship for residential and commercial properties. We are dedicated to helping people restore their homes. We make your insurance work for you!</p>
                     <div class="hero-buttons">
                         <button class="btn btn-primary btn-large">Get a Free Estimate</button>
                         <button class="btn btn-outline btn-large">Our Services</button>
@@ -88,9 +88,8 @@
                             <img src="src/installation.jpg" alt="Roof Installation">
                         </div>
                         <div class="service-content">
-                            <h3>Roof Installation</h3>
+                            <h3>Installation</h3>
                             <p>Complete roof installation services using high-quality materials for lasting protection.</p>
-                            <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="service-card">
@@ -98,9 +97,8 @@
                             <img src="src/repair.jpg" alt="Roof Repair">
                         </div>
                         <div class="service-content">
-                            <h3>Roof Repair</h3>
+                            <h3>Repair</h3>
                             <p>Fast and reliable roof repair services to fix leaks, damage, and other roofing issues.</p>
-                            <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="service-card">
@@ -108,9 +106,8 @@
                             <img src="src/replacement.jpg" alt="Roof Replacement">
                         </div>
                         <div class="service-content">
-                            <h3>Roof Replacement</h3>
+                            <h3>Replacement</h3>
                             <p>Full roof replacement services when repairs are no longer sufficient for your home.</p>
-                            <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="service-card">
@@ -118,9 +115,8 @@
                             <img src="src/inspection.jpg" alt="Roof Inspection">
                         </div>
                         <div class="service-content">
-                            <h3>Roof Inspection</h3>
+                            <h3>Inspection</h3>
                             <p>Thorough roof inspections to identify potential issues before they become major problems.</p>
-                            <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -158,12 +154,7 @@
                                 <i class="fas fa-check-circle"></i>
                                 <span>Clean and efficient work sites</span>
                             </div>
-                            <div class="feature-item">
-                                <i class="fas fa-check-circle"></i>
-                                <span>Financing options available</span>
-                            </div>
                         </div>
-                        <button class="btn btn-primary">Learn More About Us</button>
                     </div>
                 </div>
             </div>
@@ -201,7 +192,7 @@
                         <p>"Sacred Sky Roofing did an amazing job replacing our old roof. The team was professional, efficient, and cleaned up thoroughly after the job was done."</p>
                         <div class="testimonial-author">
                             <strong>John Smith</strong>
-                            <span>Springfield</span>
+                            <span>Tulsa</span>
                         </div>
                     </div>
                     <div class="testimonial-card">
@@ -215,7 +206,7 @@
                         <p>"I was impressed with how quickly they responded to my emergency roof leak. They came out the same day and fixed the issue at a reasonable price."</p>
                         <div class="testimonial-author">
                             <strong>Sarah Johnson</strong>
-                            <span>Riverdale</span>
+                            <span>Broken Arrow</span>
                         </div>
                     </div>
                     <div class="testimonial-card">
@@ -229,7 +220,7 @@
                         <p>"The quality of work and attention to detail was outstanding. Our new roof looks fantastic and was completed on time and on budget."</p>
                         <div class="testimonial-author">
                             <strong>Michael Brown</strong>
-                            <span>Oakville</span>
+                            <span>Owasso</span>
                         </div>
                     </div>
                 </div>
@@ -244,13 +235,6 @@
                         <h2>Contact Us</h2>
                         <p>Have questions or ready to start your roofing project? Get in touch with our team today.</p>
                         <div class="contact-details">
-                            <div class="contact-detail">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <div>
-                                    <h3>Our Location</h3>
-                                    <p>123 Roofing Way, Anytown, USA 12345</p>
-                                </div>
-                            </div>
                             <div class="contact-detail">
                                 <i class="fas fa-phone"></i>
                                 <div>
@@ -269,7 +253,7 @@
                                 <i class="fas fa-clock"></i>
                                 <div>
                                     <h3>Hours</h3>
-                                    <p>Monday-Friday: 8AM-6PM<br>Saturday: 9AM-2PM<br>Sunday: Closed</p>
+                                    <p>Monday-Friday: 8AM-6PM</p>
                                 </div>
                             </div>
                         </div>
@@ -305,8 +289,6 @@
                                         <option value="repair">Roof Repair</option>
                                         <option value="replacement">Roof Replacement</option>
                                         <option value="inspection">Roof Inspection</option>
-                                        <option value="gutters">Gutter Installation</option>
-                                        <option value="emergency">Emergency Services</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
@@ -328,12 +310,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Sacred Sky Roofing</h3>
-                    <p>Providing quality roofing solutions for residential and commercial properties since 1998.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
+                    <p>Providing quality roofing solutions for residential and commercial properties.</p>
                 </div>
                 <div class="footer-section">
                     <h3>Services</h3>
@@ -342,18 +319,15 @@
                         <li><a href="#">Roof Repair</a></li>
                         <li><a href="#">Roof Replacement</a></li>
                         <li><a href="#">Roof Inspection</a></li>
-                        <li><a href="#">Gutter Installation</a></li>
-                        <li><a href="#">Emergency Services</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#">Gallery</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
