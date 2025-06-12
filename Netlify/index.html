@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred Sky Roofing and Restoration LLC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <span>Sacred Sky Roofing and Restoration LLC</span>
+                </a>
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button class="btn btn-primary nav-cta" onclick="location.href='#contact'">
+                    <i class="fas fa-phone"></i> Get a Free Quote
+                </button>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Professional and experienced roofing services.</h1>
+                    <p>We provide top-quality materials and workmanship for residential properties. We are dedicated to helping people restore their homes, we make your insurance work for you!</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large" onclick="location.href='#contact'">Get a Free Estimate</button>
+                        <button class="btn btn-outline btn-large" onclick="location.href='#services'">Our Services</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Contact Bar -->
+        <section class="contact-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(918)902-4932</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>sacredskyroofing@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Mon-Fri: 8AM-6PM</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Roofing Services</h2>
+                    <p>We offer a comprehensive range of roofing services to meet all your needs, from repairs to complete replacements.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="src/installation.jpg" alt="Roof Installation">
+                        </div>
+                        <div class="service-content">
+                            <h3>Installation</h3>
+                            <p>Complete roof installation services using high-quality materials for lasting protection.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="src/repair.jpg" alt="Roof Repair">
+                        </div>
+                        <div class="service-content">
+                            <h3>Repair</h3>
+                            <p>Fast and reliable roof repair services to fix leaks, damage, and other roofing issues.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="src/replacement.jpg" alt="Roof Replacement">
+                        </div>
+                        <div class="service-content">
+                            <h3>Replacement</h3>
+                            <p>Full roof replacement services when repairs are no longer sufficient for your home.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="src/inspection.jpg" alt="Roof Inspection">
+                        </div>
+                        <div class="service-content">
+                            <h3>Inspection</h3>
+                            <p>Thorough roof inspections to identify potential issues before they become major problems.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="src/siding.jpeg" alt="Roof Inspection">
+                        </div>
+                        <div class="service-content">
+                            <h3>Siding</h3>
+                            <p>When the weather hits hard, we can repair or replace the siding of your home.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="src/gutters.jpg" alt="Roof Inspection">
+                        </div>
+                        <div class="service-content">
+                            <h3>Gutters</h3>
+                            <p>Professional gutter installation to protect your home from water damage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="src/profile.png" alt="Roofing team">
+                    </div>
+                    <div class="about-text">
+                        <h2>Why Choose Sacred Sky</h2>
+                        <p>With over 25 years of experience in the roofing industry, we've built a reputation for quality workmanship, reliability, and exceptional customer service.</p>
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Licensed and insured professionals</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Premium quality materials</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Comprehensive warranties</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Free detailed estimates</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Clean and efficient work sites</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Get Started?</h2>
+                    <p>Contact us today for a free, no-obligation estimate on your roofing project.</p>
+                    <button class="btn btn-primary btn-large" onclick="location.href='#contact'">
+                        <i class="fas fa-phone"></i> Call (918)902-4932
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Customers Say</h2>
+                    <p>Don't just take our word for it. Here's what our satisfied customers have to say about our roofing services.</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Sacred Sky did an amazing job replacing our old roof. The team was professional, efficient, and cleaned up thoroughly after the job was done."</p>
+                        <div class="testimonial-author">
+                            <strong>John Smith</strong>
+                            <span>Tulsa</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"I was impressed with how quickly they responded to my emergency roof leak. They came out the same day and fixed the issue at a reasonable price."</p>
+                        <div class="testimonial-author">
+                            <strong>Sarah Johnson</strong>
+                            <span>Broken Arrow</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The quality of work and attention to detail was outstanding. Our new roof looks fantastic and was completed on time and on budget."</p>
+                        <div class="testimonial-author">
+                            <strong>Michael Brown</strong>
+                            <span>Owasso</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info-section">
+                        <h2>Contact Us</h2>
+                        <p>Have questions or ready to start your roofing project? Get in touch with our team today.</p>
+                        <div class="contact-details">
+                            <div class="contact-detail">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h3>Phone</h3>
+                                    <p>(918)902-4932</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>sacredskyroofing@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h3>Hours</h3>
+                                    <p>Monday-Friday: 8AM-6PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-section">
+                        <div class="form-card">
+                            <h3>Request a Free Estimate</h3>
+                            <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                            <form data-netlify="true" name="contact" class="contact-form" onsubmit="handleFormSubmit(event)">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="firstName">First Name</label>
+                                        <input type="text" id="firstName" name="firstName" placeholder="John" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastName">Last Name</label>
+                                        <input type="text" id="lastName" name="lastName" placeholder="Smith" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="john.smith@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="(555)555-5555" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">Service Needed</label>
+                                    <select id="service" name="service" required>
+                                        <option value="">Select a service</option>
+                                        <option value="installation">Roof Installation</option>
+                                        <option value="repair">Roof Repair</option>
+                                        <option value="replacement">Roof Replacement</option>
+                                        <option value="inspection">Roof Inspection</option>
+                                        <option value="inspection">Gutters</option>
+                                        <option value="inspection">Siding</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-full">Submit Request</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sacred Sky Roofing and Restoration LLC</h3>
+                    <p>Providing quality roofing solutions for residential properties.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Roof Installation</a></li>
+                        <li><a href="#">Roof Repair</a></li>
+                        <li><a href="#">Roof Replacement</a></li>
+                        <li><a href="#">Roof Inspection</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(918)902-4932</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sacredskyroofing@gmail.com</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon-Fri: 8AM-6PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sacred Sky Roofing and Restoration LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
