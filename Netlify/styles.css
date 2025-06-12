@@ -194,7 +194,7 @@ body {
 
 /* Contact Bar */
 .contact-bar {
-  background: #314314;
+  background:#314314;
   color: white;
   padding: 1rem 0;
   backdrop-filter: blur(5px);
@@ -674,7 +674,7 @@ body {
   }
 
   .services-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .testimonials-grid {
