@@ -1,3 +1,14 @@
+.banner-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  padding: 20px 0 0 20px;
+}
+
+main {
+  position: relative;
+}
 /* Reset and Base Styles */
 * {
   margin: 0;
