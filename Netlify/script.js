@@ -21,7 +21,21 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   })
 })
 
+// Form submission handler
+function handleFormSubmit(event) {
+  event.preventDefault()
 
+  // Get form data
+  const formData = new FormData(event.target)
+  const data = Object.fromEntries(formData)
+
+  // Here you would typically send the data to your server
+  // For now, we'll just show an alert
+  alert("Thank you for your request! We will contact you soon.")
+
+  // Reset the form
+  event.target.reset()
+}
 
 // Header scroll effect
 window.addEventListener("scroll", () => {
