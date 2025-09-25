@@ -8,7 +8,7 @@
 
 @media (max-width: 600px) {
   .banner-img-responsive {
-    width: 50vw;
+    width: 33vw;
     max-width: 90vw;
     min-width: 80px;
   }
