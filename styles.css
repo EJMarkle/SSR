@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
   .hero-text {
-    margin-top: 80px;
+    margin-top: 90px;
   }
 }
 @media (max-width: 600px) {
@@ -9,7 +9,7 @@
     padding-top: 2px;
   }
   .banner-img-responsive {
-    width: 33vw;
+    width: 50vw;
     max-width: 90vw;
     min-width: 80px;
   }
