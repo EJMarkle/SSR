@@ -1,3 +1,14 @@
+@media (max-width: 600px) {
+  .banner-top-left {
+    top: 5px;
+    padding-top: 5px;
+  }
+  .banner-img-responsive {
+    width: 33vw;
+    max-width: 90vw;
+    min-width: 80px;
+  }
+}
 .banner-img-responsive {
   width: 25vw;
   max-width: 310px;
