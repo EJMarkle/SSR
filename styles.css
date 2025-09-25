@@ -1,4 +1,9 @@
 @media (max-width: 600px) {
+  .hero-text {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 600px) {
   .banner-top-left {
     top: 2px;
     padding-top: 2px;
