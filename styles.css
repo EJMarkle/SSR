@@ -91,6 +91,14 @@ body {
   border-bottom: 1px solid rgba(229, 229, 229, 0.5);
 }
 
+/* BBB Seal Position Offset */
+#bbblink,
+iframe[src*="bbb.org/badge"],
+iframe[src*="seal-tulsa.bbb.org"] {
+  top: 84px !important;
+  right: 16px !important;
+}
+
 .nav-wrapper {
   display: flex;
   align-items: center;
